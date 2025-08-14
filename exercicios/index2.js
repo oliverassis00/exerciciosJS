@@ -42,15 +42,15 @@
 
 // 6. Peça pro usuário digitar um número inteiro positivo N. Mostre no console o fatorial desse número.
 
-const prompt = require('prompt-sync')();
+// const prompt = require('prompt-sync')();
 
-let numero = parseInt(prompt("Digite um número inteiro positivo: "));
-let resultado = 1;
+// let numero = parseInt(prompt("Digite um número inteiro positivo: "));
+// let resultado = 1;
 
-for (let i = numero; i >= 1; i--) {
-    resultado *= i;
-}
+// for (let i = numero; i >= 1; i--) {
+//     resultado *= i;
+// }
 
-console.log(`O fatorial de ${numero} é ${resultado}`);
+// console.log(`O fatorial de ${numero} é ${resultado}`);
 
 
