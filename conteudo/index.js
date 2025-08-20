@@ -2,4 +2,4 @@
 
 let nomes = ["Maria Clara", "Jorge Ben Jor", "Matheus", "Leandro Albino"];
 
-console.log(nomes[0]); // acessando um array
+console.log(nomes); // acessando um array
