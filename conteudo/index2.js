@@ -72,14 +72,45 @@
 
     // console.log(numeros.filter(num => num % 2 == 0));
 
-// Use .reduce() para somar todos os números do array.
+// // Use .reduce() para somar todos os números do array.
 
-    const numeros = [1, 2, 5, 10, 11];
+//     const numeros = [1, 2, 5, 10, 11];
 
-    console.log(numeros.reduce());
+//     console.log(numeros.reduce((acumulador, atual) => acumulador + atual, 0));
 
 // 3️⃣ Avançado
 
-// Encontre o primeiro número maior que 10 usando .find().
+// // Encontre o primeiro número maior que 10 usando .find().
+
+//     const numeros = [1, 2, 5, 10, 11];
+
+//     console.log(numeros.find(numero => numero > 2));
 
 // Verifique se todos os números são positivos usando .every().
+
+// // Encontre o primeiro número maior que 10 usando .find().
+
+//     const numeros = [1, 2, 5, 10, 11];
+
+//     console.log(numeros.every(numero => numero > 0));
+
+// Desafio
+    // const users = [
+    // { name: "Alice", age: 25, active: true },
+    // { name: "Bob", age: 30, active: false },
+    // { name: "Charlie", age: 35, active: true },
+    // { name: "David", age: 28, active: false },
+    // ];
+
+// Filtrar apenas os usuários ativos.
+
+// console.log(users.filter(users => users.active));
+
+// Criar um novo array contendo apenas os nomes dos usuários ativos.
+    // const ativos = users.filter(user => user.active).map(user => user.name);   
+    // console.log(ativos);
+
+// Calcular a média de idade dos usuários ativos.
+
+
+// Verificar se existe algum usuário com mais de 40 anos.
